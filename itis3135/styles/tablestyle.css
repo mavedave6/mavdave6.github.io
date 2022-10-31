@@ -1,0 +1,14 @@
+table{
+    background-color: black;
+}
+
+.tr1{
+    background-color: rgba(78, 133, 170, 0.493);
+    align-self: center;
+}
+.tr2{
+    background-color: rgb(14, 35, 94);
+}
+th{
+    width: 100px;
+}
