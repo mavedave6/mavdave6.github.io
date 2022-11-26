@@ -1,0 +1,68 @@
+html{
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image: url(../img/Backg.jpg);
+  background-size: cover;
+  max-width: 100%;
+  background-position:40%;
+ }
+
+ .content{
+  max-width:100%;
+  margin-top: 23vh;
+  margin-bottom: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+h1,h3{
+  text-align: center;
+  font-family: cursive;
+}
+
+h1{
+  font-size: 1.1rem;
+}
+h3{
+  font-size: 0.9rem;
+}
+
+.content img{
+  max-width: 26vh;
+  max-height: 26vh;
+  
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+@media(min-width: 550px){
+  h1{
+    font-size: 1.6rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+}
+@media(max-height: 600px){
+  
+  .content img{
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 40%;
+    margin-right: 0%;
+  }
+  .content{
+    margin-top: 14vh;
+  }
+}
