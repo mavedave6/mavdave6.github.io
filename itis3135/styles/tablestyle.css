@@ -1,18 +1,22 @@
 table{
-    background-color: black;
-}
-
-.tr1{
-    background-color: rgba(78, 133, 170, 0.493);
-    align-self: center;
-}
-.tr2{
-    background-color: rgb(14, 35, 94);
+  width: 400px; 
+  
 }
 th{
-    width: 100px;
+    background-color: aquamarine;
+    text-align: left;
 }
 
-footer{
-    padding-top: 10px;
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+.active-row{
+    border-bottom: 2px solid black;
+
 }
