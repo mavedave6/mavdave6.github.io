@@ -1,15 +1,16 @@
 body
 {
 	color: black;
-	background-color: white;
-	font-family: Tahoma;
+	background-color: #F5D5AE;
+	
 	font-size: 15px;
+	margin: 0;
 
 }
 header {
 	width: 100%;
-    height: 50px;
-    background-color: rgb(60, 87, 20);
+  height: 50px;
+  background-color: #2B3A55;
 	padding: 15px 0;
 	display: flex;
 }
@@ -17,12 +18,13 @@ header {
 h1
 {
 	color: white;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 	font-size: min(5vw, 1.2em);
 	margin-left: 20%;
 	margin-right: 10%;
-	
+
 }
+
 
 nav {
 	width: 60%;
@@ -51,4 +53,19 @@ nav > ul {
 	background-color: #dfdfe2;
 	color: #1b1b32;
 	cursor: pointer;
+  }
+
+	header > h1:hover{
+		background-color: #dfdfe2;
+		color: #1b1b32;
+		cursor: pointer;
+	}
+  footer{
+
+   margin: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
   }
