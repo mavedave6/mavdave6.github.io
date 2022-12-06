@@ -7,6 +7,28 @@
     <script src="scripts/defaultscripts.js"></script>
   </head>
   <body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+      <h2>First JavaScripts</h2>
+      <h3>The time is getTime on getDate</h3>
+    <form>
+          <fieldset>
+            <label for="fullName">Enter your name:
+              <input id="fullName" name="fullName" type="text" placeholder="Betty White"  required>
+            </label>
+            <label for="feeling">How are you feeling?
+              <input id="feeling" name="feeling" type="text" placeholder="Really God" required>
+            </label>
+            <input type="button" value="Submit" id="submit" onclick="welcome()">
+          </fieldset>
 
+        </form>
+    </main>
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.js"></script>
   </body>
 </html>
