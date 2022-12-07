@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>First Scripts</title>
+    <link rel="stylesheet" href="styles/default.css">
+  </head>
+  <body onload = "alertUser()">
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+    <main>
+      <h2 id="top">Polygons!</h2>
+      <button onclick = "alertUser();" type = "button" name = "polygon" id = "polygon">Enter a number</button>
+      <h4 id="polygonName"></h4>
+    </main>
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+      <script src="scripts/include.js"></script>
+      <script src="scripts/polygons.js">
+
+      </script>
+  </body>
+  <style>
+    h2{
+      text-align: center;
+    }
+  </style>
+</html>

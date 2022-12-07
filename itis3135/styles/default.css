@@ -1,10 +1,13 @@
+html{
+	font-family: sans-serif;
+}
 body
 {
 	color: black;
 	background-color: #F5D5AE;
-	
+
 	font-size: 15px;
-	margin: 0;
+	margin: 10px;
 
 }
 header {

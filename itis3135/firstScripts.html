@@ -1,34 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>First Scripts</title>
-    <link rel="stylesheet" href="/styles/default.css">
-    <script src="scripts/defaultscripts.js"></script>
+    <link rel="stylesheet" href="styles/default.css">
   </head>
-  <body>
+  <body onload="date_time()">
     <header>
-        <div data-include="components/header.html"></div>
+      <div data-include="components/header.html"></div>
     </header>
     <main>
       <h2>First JavaScripts</h2>
-      <h3>The time is getTime on getDate</h3>
+      <h3 id="day">Date</h3>
+      <h3 id="greeting">Hi!</h3>
     <form>
           <fieldset>
-            <label for="fullName">Enter your name:
-              <input id="fullName" name="fullName" type="text" placeholder="Betty White"  required>
+            <label for="name">Enter your name:
+              <input id="name" name="name" type="text" placeholder="Betty White"  required>
             </label>
             <label for="feeling">How are you feeling?
-              <input id="feeling" name="feeling" type="text" placeholder="Really God" required>
+              <input id="feeling" name="feeling" type="text" placeholder="Really good" required>
             </label>
             <input type="button" value="Submit" id="submit" onclick="welcome()">
           </fieldset>
+
+          <fieldset>
+            <h4>Input your birth year to find your age</h4>
+
+            <label for="birth">Birth year:
+              <input id="birth" name="birth" type="number" placeholder="1999">
+            </label>
+
+            <input type="button" value="Submit" id="submit" onclick="yourAge()">
+          </fieldset>
+
+          <fieldset>
+            <h4>Partake in our one digit number lottery</h4>
+
+            <label for="lucky-number">Input Number:
+              <input id="lucky-number" name="lucky-number" type="number" placeholder="7">
+            </label>
+
+            <input type="button" value="Submit" id="submit" onclick="guessNumber()">
+          </fieldset>
+
+          <fieldset>
+            <h4>Leave us a comment</h4>
+
+            <label for="comment">comment:
+              <input id="comment" name="comment" type="comment" placeholder="beautiful site">
+            </label>
+            <input type="button" value="Submit" id="submit" onclick="commentFunction()">
+          </fieldset>
+          <br>
+
+          <button type="button" onclick="rickRolled()">Click to activate 50% discount on all bell pepper enquires</button>
+          <br>
+          <button type="button" onclick="survival()">Find out if you can survive in the wild</button>
 
         </form>
     </main>
     <footer>
       <div data-include="components/footer.html"></div>
     </footer>
-    <script src="scripts/include.js"></script>
+      <script src="scripts/include.js"></script>
+      <script src="scripts/defaultscripts.js">
+
+      </script>
   </body>
+  <style>
+    h2{
+      text-align: center;
+    }
+  </style>
 </html>
