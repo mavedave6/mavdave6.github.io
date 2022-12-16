@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+
+      <link rel="stylesheet" href="pagestyles.css">
+  </head>
+  <body>
+    <header>
+
+      <img id="logo" src="stack.png" alt="image of a stack of books" height="50px" width="40px">
+      <h2 class="big-txt">Books</h2>
+
+      <div class="navigation">
+      <nav role="navigation" class="navigation-items">
+          <a href="#about">Home</a>
+          <a href="#books"> Books</a>
+          <a href="#contact"> About</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+
+    <p>Click each book to see a short description below.</p>
+
+      <div class="books">
+
+
+        <div class="book" onclick="showDescription('book1')">
+          <div class="book-cover">
+            <img src="img\thug.jpg" alt="The Hate You Give" height="300" width="220" >
+          </div>
+          <div class="book-title" onclick="showDescription('book1')">The Hate You Give</div>
+          <div class="book-author" onclick="showDescription('book1')">Angie Thomas</div>
+          </div>
+
+          <div class="book" onclick="showDescription('book2')">
+            <div class="book-cover">
+              <img src="img\atbp.jpg" alt="All the bright p;aces" height="300" width="220" >
+            </div>
+            <div class="book-title">All The Bright Places</div>
+            <div class="book-author">Jenifer Niven</div>
+          </div>
+
+            <div class="book" onclick="showDescription('book3')">
+              <div class="book-cover">
+                <img src="img\tfios.jpg" alt="The fault in our stars" height="300" width="220"  >
+              </div>
+              <div class="book-title">The Fault In Our Stars</div>
+              <div class="book-author">John Green</div>
+            </div>
+
+            <div class="book" onclick="showDescription('book4')">
+              <div class="book-cover">
+                <img src="img\np.jpg" alt="Normal People" height="300" width="220">
+              </div>
+              <div class="book-title">Normal People</div>
+              <div class="book-author">Sally Rooney</div>
+            </div>
+
+            <div class="book" onclick="showDescription('book5')">
+              <div class="book-cover">
+                <img src="img\e&p.jpg" alt=">Eleanor & Park" height="300" width="220">
+              </div>
+              <div class="book-title">Eleanor & Park</div>
+              <div class="book-author">Rainbow Rowell</div>
+            </div>
+
+            <div class="book"onclick="showDescription('book6')">
+              <div class="book-cover">
+                <img src="img\hutu.jpg" alt="All the bright p;aces" height="300" width="220" >
+              </div>
+              <div class="book-title">Holding Up The Universe</div>
+              <div class="book-author">Jenifer Niven</div>
+            </div>
+
+            <div class="desc" id="desc">
+              <div id="book1" style="display: none;">
+                <p>"The Hate U Give" is a young adult novel by Angie Thomas. It was published in 2017 and has since become a bestseller and critically acclaimed work. The novel tells the story of sixteen-year-old Starr Carter, who witnesses the fatal shooting of her childhood best friend, Khalil, by a white police officer. As she struggles to navigate the aftermath of the tragedy and the pressure from all sides of the community, Starr must find her voice and decide to stand up for what is right.
+
+      The novel explores themes of racism, police brutality, and the Black Lives Matter movement. It has received widespread praise for its portrayal of these issues and for its authentic and relatable main character. "The Hate U Give" has also been adapted into a feature film, which was released in 2018.</p>
+              </div>
+
+              <div id="book2" style="display: none;">
+                "All the Bright Places" is a young adult novel by Jennifer Niven. It was published in 2015 and has since become a bestseller and critically acclaimed work. The novel tells the story of Violet Markey and Theodore Finch, two high school students who meet on the roof of their school and begin a tumultuous relationship. Both Violet and Finch are dealing with their own mental health struggles, and as they explore the beautiful landscapes of their home state of Indiana, they must confront their deepest fears and insecurities.
+
+      The novel explores themes of mental health, love, and loss. It has received widespread praise for its sensitive and nuanced portrayal of its characters and their struggles. "All the Bright Places" has also been adapted into a feature film, which was released in 2020.
+              </div>
+
+              <div id="book3" style="display: none;">
+              <p>"The Fault in Our Stars" is a young adult novel by John Green. It was published in 2012 and has since become a bestseller and critically acclaimed work. The novel tells the story of Hazel and Augustus, two teenagers who meet at a cancer support group and fall in love. Despite their terminal diagnoses, they find joy and meaning in each other's company, and must come to terms with their own mortality.
+
+      The novel explores themes of love, loss, and the meaning of life. It has received widespread praise for its heartfelt and emotional portrayal of its characters and their struggles. "The Fault in Our Stars" has also been adapted into a feature film, which was released in 2014.</p>
+              </div>
+
+              <div id="book4" style="display: none;">
+              <p>"Normal People" is a novel by Irish author Sally Rooney. It was published in 2018 and has since become a bestseller and critically acclaimed work. The novel tells the story of Connell and Marianne, two high school students who come from different social backgrounds but form a deep connection. As they move through college and into adulthood, they must navigate the complexities of their relationship and their own personal struggles.
+
+      The novel explores themes of love, class, and identity. It has received widespread praise for its realistic and relatable characters, as well as its insightful and emotionally resonant storytelling. "Normal People" has also been adapted into a television series, which was released in 2020.</p>
+              </div>
+
+              <div id="book5" style="display: none;">
+                <p>"Eleanor & Park" is a young adult novel by Rainbow Rowell. It was published in 2013 and has since become a bestseller and critically acclaimed work. The novel tells the story of Eleanor and Park, two misfit high school students who fall in love against the odds. Eleanor is a new student at the school, and she is bullied for her appearance and her home life. Park is a quiet, shy boy who loves comics and music, and he is one of the only people who is kind to Eleanor. As they get to know each other, they must navigate their own insecurities and the challenges of a forbidden romance.
+
+      The novel explores themes of love, identity, and belonging. It has received widespread praise for its authentic and relatable characters and its tender, emotional portrayal of their relationship. "Eleanor & Park" has also been adapted into a feature film, which is currently in development.</p>
+              </div>
+
+              <div id="book6" style="display: none;">
+              <p>"Holding Up the Universe" is a young adult novel by Jennifer Niven. It was published in 2016 and has since become a bestseller and critically acclaimed work. The novel tells the story of Libby Strout, the former "fattest girl in America," and Jack Masselin, a boy with face blindness. As Libby and Jack's paths intersect and they begin to understand each other's struggles, they must confront their deepest fears and insecurities.
+
+      The novel explores themes of body image, self-acceptance, and friendship. It has received widespread praise for its realistic and relatable characters and its sensitive portrayal of difficult issues. "Holding Up the Universe" is the companion novel to Niven's bestselling book "All the Bright Places."</p>
+              </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+      <script src="script.js"></script>
+  </body>
+</html>

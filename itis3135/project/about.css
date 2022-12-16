@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+}
+#about-contact{
+  margin-top: 10%;
+}
+.input{
+  margin: auto;
+
+  padding: 3px;
+
+ }
+ input,textarea{
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    margin-left: 10px;
+    background-color: #533906;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100px;
+}

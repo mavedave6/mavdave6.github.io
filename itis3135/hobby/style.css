@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.container{
+  padding-bottom: 10%;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: #555;
+}
+main {
+  padding: 20px;
+}
+.show{
+  margin-left: 0;
+}
+.videos{
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Show and Description</title>
+    <style >
+    #container {
+display: flex;
+align-items: center;
+}
+
+#show {
+width: 50%;
+}
+
+#description {
+width: 50%;
+}
+
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+      <img src="show.jpg" alt="Show" id="show">
+
+    </div>
+    <script >
+    const show = document.getElementById('show');
+    const description = document.getElementById('description');
+
+    show.addEventListener('click', () => {
+      if (description.style.display === 'none') {
+        description.style.display = 'block';
+      } else {
+        description.style.display = 'none';
+      }
+    });
+
+    </script>
+  </body>
+</html>
