@@ -59,6 +59,9 @@ nav > ul {
 		color: #1b1b32;
 		cursor: pointer;
 	}
+	.container{
+		padding-bottom: 10%;
+	}
   footer{
    margin-top: 5%;
     position: fixed;
