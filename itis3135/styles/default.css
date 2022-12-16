@@ -33,7 +33,7 @@ nav {
 nav > ul {
 	display: flex;
 	justify-content: space-evenly;
-	float: right;
+
   }
 
   nav > ul > li {
