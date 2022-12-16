@@ -19,6 +19,10 @@ header{
 	padding: 15px 0;
 	display: flex;
 }
+.mySlides {
+    display: none;
+}
+
 
 h1
 {
