@@ -1,0 +1,4 @@
+  <p>I like books and the goal of this website is to simply share books I've read that are worth reading.
+         Not that every books isn't worth reading, more like books I feel confident sharing. You don't need
+       to know anything else about me other than the fact that I read these books prior to putting them on the
+     website, so you're in safe hands.</p>
