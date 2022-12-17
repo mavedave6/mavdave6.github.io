@@ -84,3 +84,6 @@ nav > ul {
 		display: flex;
 		justify-content: space-evenly;
   }
+	.project-pic{
+		margin-left: 33%;
+	}
