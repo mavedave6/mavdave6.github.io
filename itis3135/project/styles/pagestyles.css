@@ -66,9 +66,12 @@ h1, h2, h3, h4 {
   font-family: Baskerville;
   color: black;
 
-
-
 }
+
+.welcs{
+  margin-left: 30%;
+}
+
 #book1{
   background-color: white;
   padding: 20px;
