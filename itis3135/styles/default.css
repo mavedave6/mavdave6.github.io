@@ -12,11 +12,13 @@ body
 }
 header{
 	width: 100%;
+	background-color: #2B3A55;
+	padding: 15px 0;
 }
 .header,footer {
 	width: 100%;
   background-color: #2B3A55;
-	padding: 15px 0;
+
 	display: flex;
 }
 .mySlides {
@@ -68,7 +70,7 @@ nav > ul {
 		color: #1b1b32;
 		cursor: pointer;
 	}
-	.container{
+	.container,.slideshow-container{
 		padding-bottom: 10%;
 	}
   footer{
