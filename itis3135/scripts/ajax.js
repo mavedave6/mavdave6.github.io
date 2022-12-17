@@ -1,4 +1,6 @@
 $(document).ready(function(){
-    $("#button").click(function(){
-      $("#about-intro").load("scripts/david.txt");
+    $("#button1").click(function(){
+      $("#div1").load("scripts/ajaxfiles/maureen.txt");
     });
+    
+  });
