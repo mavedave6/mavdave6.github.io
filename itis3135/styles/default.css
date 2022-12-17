@@ -14,18 +14,10 @@ body
 
 }
 
-footer {
-    text-align: center;
-}
 
 
-footer {
-	width: 100%;
-  background-color: #2B3A55;
-	display: flex;
-  flex-wrap: wrap;
 
-}
+
 .mySlides {
     display: none;
 }
@@ -67,7 +59,9 @@ nav a:hover, a:hover {
 	.container,.slideshow-container{
 		padding-bottom: 10%;
 	}
+
   footer{
+	text-align: center;
    margin-top: 5%;
     position: fixed;
     bottom: 0;
@@ -77,6 +71,7 @@ nav a:hover, a:hover {
 		color: white;
 		display: flex;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
   }
 	.project-pic{
 		margin-left: 33%;

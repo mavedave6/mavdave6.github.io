@@ -14,7 +14,7 @@ header {
 footer {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -39,4 +39,16 @@ main {
 .videos{
   display: flex;
   justify-content: space-evenly;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+nav li {
+	margin: 0 10px;
+
+	text-align:center;
 }
