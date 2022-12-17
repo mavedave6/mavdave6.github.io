@@ -20,7 +20,7 @@
         dataType: "json",
         success: function(data) {
           $("#books").html("");
-          $.each(data.books, function(key, value) {
+          $.each(data, function(key, value) {
             if (value.title.toLowerCase().includes(query.toLowerCase()) || value.author.toLowerCase().includes(query.toLowerCase())) {
               $("#books").append(
                 "<h2>" + "" + value.title + "</h2>" +
