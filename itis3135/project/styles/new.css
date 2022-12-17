@@ -1,0 +1,32 @@
+html{
+  color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+
+.book-carousel {
+  width: 100%;
+  height: auto;
+}
+.img{
+  display:block;
+  margin:auto;
+}
+.featured_books{
+  display:block
+
+}
+.hfb{
+  margin-left:-52%;
+}
