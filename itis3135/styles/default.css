@@ -18,8 +18,9 @@ header{
 .header,footer {
 	width: 100%;
   background-color: #2B3A55;
-
 	display: flex;
+  flex-wrap: wrap;
+
 }
 .mySlides {
     display: none;
