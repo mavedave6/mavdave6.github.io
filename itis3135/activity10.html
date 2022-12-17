@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <title>Image Swap</title>
+    <link rel="stylesheet" href="Styles/default.css">
+	<script src="jQuery/jquery-3.6.1.min.js"></script>
+    <script src="scripts/activity10.js"></script>
+    <style >
+      h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: .25em;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .5em 0 .25em;
+}
+
+li {
+    padding-right: 10px;
+    display: inline;
+}
+
+ul{
+    text-align: center;
+}
+
+.flower{
+    width: 75px;
+    height: auto;
+
+}
+    </style>
+</head>
+
+<body>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
+
+
+	<main>
+		<br>
+		<br>
+		<h1>Pictures of Beautiful Flowers</h1>
+		<br>
+	    <ul id="image_list">
+	        <li><a href="images/flower1.jpg" title="Flower 1">
+	        	<img src="images/flower1.jpg" alt="" class="flower"></a></li>
+	        <li><a href="images/flower2.jpg" title="Flower 2">
+	        	<img src="images/flower2.jpg" alt="" class="flower"></a></li>
+	        <li><a href="images/flower3.jpg" title="Flower 3">
+	        	<img src="images/flower3.jpg" alt="" class="flower"></a></li>
+	        <li><a href="images/flower4.jpg" title="Flower 4">
+	        	<img src="images/flower4.jpg" alt="" class="flower"></a></li>
+	        <li><a href="images/flower5.jpg" title="Flower 5">
+	        	<img src="images/flower5.jpg" alt="" class="flower"></a></li>
+	        <li><a href="images/flower6.jpg" title="Flower 6">
+	        	<img src="images/flower6.jpg" alt="" class="flower"></a></li>
+	    </ul>
+		<br>
+	    <h2 id="caption"Flowers</h2>
+		<br>
+	    <p><img src="images/activity10_images/mount-everest.webp" alt="" style="width: 600px; height: auto;" id="image" class="imgcenter"></p>
+		<br>
+		<br>
+	</main>
+
+  <footer>
+      <div data-include="components/footer.html"></div>
+  </footer>
+
+    <script src="scripts/HTMLInclude.js"></script>
+
+</body>
+</html>
