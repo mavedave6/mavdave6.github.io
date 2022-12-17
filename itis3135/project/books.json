@@ -1,17 +1,22 @@
-{
-  "books": [
-    {
-      "image": "book1.jpg",
-      "title": "Book 1",
-      "author": "Author 1",
-      "description": "Description of book 1"
+
+[
+  {
+    "image": "book1.jpg",
+    "title": "Book1",
+    "author": "Author 1",
+    "description": "Description of book 1"
+    }
+  ,
+  {
+    "image": "book2.jpg",
+    "title": "Book2",
+    "author": "Author 2",
+    "description": "Description of book 2"
     },
     {
-      "image": "book2.jpg",
-      "title": "Book 2",
-      "author": "Author 2",
-      "description": "Description of book 2"
-    }
-  ]
-}
-
+      "image": "book3.jpg",
+      "title": "Book3",
+      "author": "Author 3",
+      "description": "Description of book 3"
+      }
+]
