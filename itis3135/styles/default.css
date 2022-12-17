@@ -34,6 +34,7 @@ header {
 	background-color: lightblue;
 	padding: 20px;
 	max-width: 100%;
+	color: black;
 
 }
 nav ul {
@@ -71,7 +72,7 @@ nav a:hover, a:hover {
     width: 100%;
     height: 2rem;
     text-align: center;
-		color: white;
+		color: black;
 		display: flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
