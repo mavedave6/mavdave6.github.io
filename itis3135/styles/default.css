@@ -8,10 +8,13 @@ body
 {
 	color: black;
 	background-color: #F5D5AE;
-
+	position: relative;
 	font-size: 15px;
-	margin: 10px;
+	margin: 0;
+}
 
+main{
+	margin: 10px;
 }
 
 
@@ -22,8 +25,7 @@ body
 }
 
 
-h1
-{
+.tits{
 	color: white;
 	font-size: 15px;
 	text-align: center;
@@ -32,6 +34,7 @@ header {
 	background-color: lightblue;
 	padding: 20px;
 	max-width: 100%;
+
 }
 nav ul {
 	list-style: none;
@@ -64,6 +67,7 @@ nav a:hover, a:hover {
    margin-top: 5%;
    position: fixed;
   	bottom: 0;
+		left:0;
     width: 100%;
     height: 2rem;
     text-align: center;

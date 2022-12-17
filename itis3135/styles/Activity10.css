@@ -1,0 +1,35 @@
+
+h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: .25em;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .5em 0 .25em;
+    text-align: center;
+}
+
+li {
+    padding-right: 10px;
+    display: inline;
+}
+
+ul{
+    text-align: center;
+}
+#image{
+  height:400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+p{
+  padding-bottom: 10%
+  }
