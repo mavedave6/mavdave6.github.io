@@ -1,26 +1,13 @@
 $(document).ready(function() {
-  $.ajax({
-    type: "get",
-    url: "team.json",
-    beforeSend: function() {
-        $("#team").html("Loading...");
-    },
-    timeout: 10000,
-    error: function(xhr, status, error) {
-        alert("Error: " + xhr.status + " - " + error);
-    },
-    dataType: "json",
-    success: function(data) {
-        $("#team").html("");
-        for (let i = 0; i < data.management.length; i++) {
-            let management = data.management[i];
-            $("#team").append(
-                "<h3>" + management.name + "</h3>" +
-                management.title + "<br>" +
-                management.bio + "<br>"
-            );
-        }
-    }
-});
-
+    $.getJSON("team.json", function(data){
+        $.each(data, function(){
+            $.each(this, function(key, value){
+                $("#team").append(
+                    "Name: " + value.name + "<br>" +
+                    "Title: " + value.title + "<br>" +
+                    "Bio: " + value.bio + "<br><br>"
+                );
+            });
+        });
+    });
 });
