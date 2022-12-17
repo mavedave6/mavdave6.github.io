@@ -5,18 +5,18 @@
 
     <title></title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/script.js"></script>
 
   </head>
   <body>
     <main>
-      <form id="book-search-form">
-  <label for="search-term">Search for a book:</label>
-  <input type="text" id="search-term" placeholder="Enter a title or author">
-  <button type="submit">Search</button>
-   </form>
-
-    <div id="book-result" class="book-result"></div>
-    <div id="book-details"></div>
+      <form id="search-form">
+        <input type="text" id="query" placeholder="Search for a book">
+        <button type="submit" onclick="search()">Search</button>
+      </form>
+      <div id="results"></div>
 
     </main>
   </body>
